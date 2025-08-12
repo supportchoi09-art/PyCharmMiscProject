@@ -5,14 +5,15 @@
 #60점 이상이라면 D학점
 #위 조건에 부합하지 않는다면 재시험!(F학점)
 
-score = 90
+score = int(input("당신의 성적을 입력하세요 : "))
 if score >= 90:
     print("당신은 A학점 입니다.")
-if 90 > score >= 80:
+elif 90 > score >= 80:
     print("당신은 B학점 입니다. ")
-if 80 > score >= 70:
+elif 80 > score >= 70:
     print("당신은 C학점 입니다.")
-if 70 > score >= 60:
+elif 70 > score >= 60:
     print("당신은 D학점 입니다.")
-if: score >
+else:
+    print("당신은 재시험입니다.")
 
