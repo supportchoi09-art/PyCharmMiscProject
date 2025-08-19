@@ -51,4 +51,28 @@ print(banana.count("a"))
 replace_text = " I like dogs"
 print(replace_text.replace("like", "love"))
 
+split_text = "apple,banana,grape"
+print(split_text.split(",")) #,를 기준으로  text를 나누라는 의미 (원래는 하나의 문자열) -> 리스트로 변환되어 출력됨
+
+words = ['apple', 'dog', 'cat']
+#print(", "join(words))
+
+startswith_text = "start swith"
+print(startswith_text.startswith("start")) # start로 시작하는지 확인해줄게
+print(startswith_text.startswith("swith")) # swith로 시작하는지 확인해줘
+
+print(startswith_text.endswith("start"))
+print(startswith_text.endswith("swith"))
+
+isdigit_text = "12345abc"
+print(isdigit_text.isdigit()) #숫자로만 이루어져 있는지 확인하는것 (숫자 + 문자 이면 false로 뜸)
+
+isalpha_text = "Python"
+print(isalpha_text.isalpha()) # 문자로만 이루어져 있는지 확인하는 것
+
+
+len_text = "jiwon"
+print(len(len_text)) # 길이가 몇개인지 알려주는 것
+
+
 
