@@ -29,7 +29,7 @@ list[start:end:step] # start는 포함하고 end는 포함하지 않음. step은
 '''
 numbers = [10,20,30,40,50]
 print(numbers[0:3]) # 3개를 추출하겠다.
-print(numbers[- 2:]) # 끝까지 출력하겠다 (40,50)
+print(numbers[-2:]) # 끝까지 출력하겠다 (40,50)
 
 print(numbers[::2]) # 2개 간격으로 출력하겠다.
 

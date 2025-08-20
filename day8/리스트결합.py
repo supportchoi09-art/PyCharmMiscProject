@@ -31,3 +31,4 @@ print(max(list5)) #list5에서 최대값 출력
 print(min(list5))  # list5에서 최소값 출력
 
 # 중첩list가 가능하다.
+
