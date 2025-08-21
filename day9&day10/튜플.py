@@ -82,3 +82,16 @@ a,b = b,a
 # 괄호가 없어도 ,가 있다면 튜플로 간주함!!!
 print(f"교환 후 : a:{a}, b:{b}")
 # 튜플은 변하지 않는 자료구조이지만 서로 가지고 있는 값을 교환할 수 있다.
+
+str_banana = "banana"
+set_banana = set(str_banana)
+print(str_banana[0])
+#print(set_banana[0]) 인덱싱을 사용할 수 없다고 나온다.
+
+str_random = "assdfgdfdfdfsdfsadfsd"
+str_random = set(str_random)
+print(str_random) # 중복된 것이 사라져서 나온다 {}이 안에
+
+sorted_list_change = sorted(set(str_random))
+print(sorted_list_change) # sorted를 하게 되면 오름차순 리스트로 변환되게 된다.  (sorted가 새로운 리스트를 만들어주는 애)
+
